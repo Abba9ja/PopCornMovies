@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryLight"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.abba9ja.popcornmovies.MovieDetailActivity"
+    tools:showIn="@layout/activity_movie_detail">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/ImageDetailHeader"
+            android:id="@+id/tvOverviewLabel"
+            android:drawableStart="@drawable/ic_overview"
+            android:drawableLeft="@drawable/ic_overview"
+            android:text="@string/overview"/>
+
+        <TextView
+            style="@style/Content"
+            android:id="@+id/tvoverview"/>
+
+        <TextView
+            style="@style/ImageDetailHeader"
+            android:id="@+id/tvRatinglabel"
+            android:drawableStart="@drawable/ic_rating"
+            android:drawableLeft="@drawable/ic_rating"
+            android:text="@string/users_rating"/>
+
+        <TextView
+            style="@style/Content"
+            android:id="@+id/tvRating"/>
+
+        <TextView
+            style="@style/ImageDetailHeader"
+            android:id="@+id/tvDateLabel"
+            android:drawableStart="@drawable/ic_date"
+            android:drawableLeft="@drawable/ic_date"
+            android:text="@string/realese_date"/>
+
+        <TextView
+            style="@style/Content"
+            android:id="@+id/tvdate"/>
+
+
+    </LinearLayout>
+
+
+</android.support.v4.widget.NestedScrollView>

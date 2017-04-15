@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Pop Corn Movies</string>
+
+    <!-- - - - - - - - - - - -->
+    <!--Used by DetailActivity  -->
+    <!-- - - - - - - - - - - -->
+
+
+    <string name="error_message"><h>Hmm</h> Seems like something is wrong, Tap to Reload</string>
+    <string name="title_activity_detail">More Details</string>
+    <string name="overview">Overview</string>
+    <string name="Date">Date:</string>
+    <string name="realese_date">Realese Date</string>
+    <string name="title_activity_movie_detail">MovieDetailActivity</string>
+    <string name="users_rating">Users Rating</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="internet_error">Hmm...you\'re not connected to the internet, connect and tap to Reload</string>
+    <!-- - - - - - - - - - - -->
+    <!--Used by NetworkUtils  -->
+    <!-- - - - - - - - - - - -->
+
+    <string name="true_value">true</string>
+    <string name="false_value">false</string>
+
+    <!-- Strings related to Settings -->
+
+    <string name="action_settings">Settings</string>
+
+
+    <!-- - - - - - - - - - - -->
+    <!--Used by Preferences  -->
+    <!-- - - - - - - - - - - -->
+
+    <string name="pref_sort_label">Sort by</string>
+
+    <!-- Key name for Movie sort order preference in SharedPreferences [CHAR LIMIT=NONE] -->
+    <string name="pref_sort_key" translatable="false">sort</string>
+
+    <!-- Label for Popularity option in Movie sort preference [CHAR LIMIT=25] -->
+    <string name="pref_sort_label_popularity">Most popular</string>
+
+    <!-- Label for Rating option in Movie sort preference [CHAR LIMIT=25] -->
+    <string name="pref_sort_label_rating">Highest rated</string>
+
+    <!-- Value in SharedPreferences for popular movies sort option [CHAR LIMIT=NONE] -->
+    <string name="pref_sort_popularity" translatable="false">popular</string>
+
+    <!-- Value in SharedPreferences for rated movie sort option [CHAR LIMIT=NONE] -->
+    <string name="pref_sort_rating" translatable="false">rated</string>
+
+
+</resources>
